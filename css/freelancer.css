@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Rozha+One');
+
+body {
+  font-family: 'Georgia';
+  color: #000;
+}
+
+#wrapper{
+    display:none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rozha One';
+}
+
+section {
+  padding-top: 10rem;
+
+}
+
+section h2 {
+  font-size: 2.25rem;
+  line-height: 2rem;
+  text-decoration-line: underline;
+  text-decoration-color: #ff9999;
+  text-decoration-style: dashed;
+}
+
+h2 .underline {
+  border-bottom: 2px double;
+  display: inline-block;
+  line-height: 0.5;
+  color: #ff9999;
+}
+
+@media (min-width: 992px) {
+  section h2 {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+
+#mainNav {
+  font-family: 'Rozha One';
+}
+
+#mainNav .navbar-nav {
+  text-decoration: none;
+  margin-top: 1rem;
+  letter-spacing: 0.0625rem;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  color: #000;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #ff9999;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+  color: #ff9999;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: #ff9999;
+}
+
+#mainNav .navbar-toggler {
+  margin-top: 1rem;
+  letter-spacing: 0.0625rem;
+  font-size: 100%;
+  padding: .8rem;
+}
+
+#mainNav .navbar-toggler:hover {
+  color: #ff9999;
+}
+
+button:focus {
+    outline: 0px;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+  }
+
+  #mainNav .navbar-nav {
+    margin-top: 0;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #ff9999;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #ff9999;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+}
+
+header.masthead {
+  padding-top: calc(6rem + 72px);
+  padding-bottom: 6rem;
+}
+
+header.masthead h1 {
+  font-size: 4rem;
+  text-decoration-line: underline;
+  text-decoration-color: #ff9999;
+  text-decoration-style: dashed;
+}
+
+header.masthead h2 {
+  font-size: 1.5rem;
+  font-family: 'Georgia';
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(6rem + 106px);
+    padding-bottom: 6rem;
+  }
+  header.masthead h1 {
+    font-size: 4em;
+  }
+  header.masthead h2 {
+    font-size: 1.5em;
+  }
+}
+
+a {
+  color: #000;
+}
+
+a:focus, a:hover, a:active {
+  color: #ff9999;
+  text-decoration: none;
+}
+
+.bg-primary {
+  background-color: #fff !important;
+}
+
+.bg-secondary {
+  background-color: #fff !important;
+}
+
+.text-primary {
+  color: #000 !important;
+}
+
+.text-secondary {
+  color: #000 !important;
+}
+
+.footer {
+  color:#ccc;
+  position: fixed;
+  bottom:0px;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #fff;
+}
+
