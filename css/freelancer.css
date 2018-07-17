@@ -2,7 +2,8 @@
 
 body {
   font-family: 'Georgia';
-  color: #000;
+  width: 100%;
+  height: 100%;
 }
 
 #wrapper{
@@ -19,16 +20,21 @@ h6 {
 }
 
 section {
-  padding-top: 10rem;
-  padding-bottom: 5rem;
-
+  padding-top: calc(6rem + 72px);
+  padding-bottom: 3rem;
 }
+
+section.no-pad {
+    padding-bottom: 0rem;
+}
+
+
 
 section h2 {
   font-size: 2.25rem;
   line-height: 2rem;
   text-decoration-line: underline;
-  text-decoration-color: #ff9999;
+  text-decoration-color: #fff;
   text-decoration-style: dashed;
 }
 
@@ -36,10 +42,9 @@ section h2 {
   section h2 {
     font-size: 3rem;
     line-height: 2.5rem;
-    text-decoration-line: underline;
-    text-decoration-color: #ff9999;
-    text-decoration-style: dashed;
+  }
 }
+
 
 #mainNav {
   font-family: 'Rozha One';
@@ -56,15 +61,15 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #ff9999;
+  color: #fff;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #ff9999;
+  color: #fff;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #ff9999;
+  color: #fff;
 }
 
 #mainNav .navbar-toggler {
@@ -75,12 +80,14 @@ section h2 {
 }
 
 #mainNav .navbar-toggler:hover {
-  color: #ff9999;
+  color: #fff;
 }
 
 
 @media (min-width: 992px) {
   #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     font-family: 'Rozha One';
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -89,15 +96,13 @@ section h2 {
 
   #mainNav .navbar-nav {
     margin-top: 0;
-    text-decoration: none;
-    margin-top: 1rem;
-    letter-spacing: 0.0625rem;
   }
+
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #ff9999;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #ff9999;
+    color: #fff;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -116,7 +121,8 @@ header.masthead {
 }
 
 header.masthead h1 {
-  font-size: 4rem;
+  font-size: 3rem;
+  line-height: 3rem;
   text-decoration-line: underline;
   text-decoration-color: #ff9999;
   text-decoration-style: dashed;
@@ -133,9 +139,10 @@ header.masthead h2 {
     padding-bottom: 6rem;
   }
   header.masthead h1 {
-    font-size: 4em;
+    font-size: 4.75em;
+    line-height: 4rem;
     text-decoration-line: underline;
-    text-decoration-color: #ff9999;
+    text-decoration-color: #fff;
     text-decoration-style: dashed;
   }
   header.masthead h2 {
@@ -149,12 +156,22 @@ a {
 }
 
 a:focus, a:hover, a:active {
-  color: #ff9999;
+  color: #fff;
+  text-decoration: none;
+}
+
+a.stories {
+  color:#000;
+  text-decoration: underline;
+}
+
+a.stories:focus, a.stories:hover, a.stories:active {
+  color:#fff;
   text-decoration: none;
 }
 
 .bg-primary {
-  background-color: #fff !important;
+  background-color: #ff9999 !important;
 }
 
 .bg-secondary {
@@ -170,12 +187,11 @@ a:focus, a:hover, a:active {
 }
 
 .footer {
-  color:#ccc;
+  color:#000;
   position: fixed;
   bottom:0px;
   width: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #fff;
 }
 
