@@ -78,12 +78,10 @@ section h2 {
   color: #ff9999;
 }
 
-button:focus {
-  outline: 0px;
-}
 
 @media (min-width: 992px) {
   #mainNav {
+    font-family: 'Rozha One';
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -91,6 +89,9 @@ button:focus {
 
   #mainNav .navbar-nav {
     margin-top: 0;
+    text-decoration: none;
+    margin-top: 1rem;
+    letter-spacing: 0.0625rem;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #ff9999;
@@ -103,6 +104,10 @@ button:focus {
     padding-bottom: 0.5rem;
   }
 
+}
+
+button:focus {
+  outline: 0px;
 }
 
 header.masthead {
@@ -135,6 +140,7 @@ header.masthead h2 {
   }
   header.masthead h2 {
     font-size: 1.5em;
+    font-family: 'Georgia';
   }
 }
 
