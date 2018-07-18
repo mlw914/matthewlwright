@@ -135,12 +135,12 @@ a:focus, a:hover, a:active {
   text-decoration: none;
 }
 
-a.stories {
+a.link {
   color:#000;
   text-decoration: underline;
 }
 
-a.stories:focus, a.stories:hover, a.stories:active {
+a.link:focus, a.link:hover, a.link:active {
   color:#fff;
   text-decoration: none;
 }
@@ -279,4 +279,5 @@ form .row:first-child .floating-label-form-group {
   bottom: 0px;
   width: 100%;
 }
+
 

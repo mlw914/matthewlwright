@@ -32,8 +32,8 @@
       <div class="container">
         <a class="navbar-nav js-scroll-trigger pr-5" href="./index.html"><i class="fas fa-home"></i></a>
         <a class="navbar-nav js-scroll-trigger pr-5" href="mailto:matthew.wright3000@gmail.com"><i class="far fa-envelope"></i></a>
-        <a class="navbar-nav js-scroll-trigger pr-5" href="https://www.linkedin.com/in/matthewwright1993"><i class="fab fa-linkedin-in"></i></a>
-        <a class="navbar-nav js-scroll-trigger pr-5" href="https://twitter.com/WRIGHT_AFFAIR"><i class="fab fa-twitter"></i></a>
+        <a class="navbar-nav js-scroll-trigger pr-5" href="https://www.linkedin.com/in/matthewwright1993" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a class="navbar-nav js-scroll-trigger pr-5" href="https://twitter.com/WRIGHT_AFFAIR" target="_blank"><i class="fab fa-twitter"></i></a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-bars"></i>
         </button>
@@ -58,18 +58,32 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 mb-3">
-          <div class="w3-content w3-section text-md-left" align="center">
-            <img class="mySlides img-fluid mb-3" src="img/insta1.png" width="450px" height="450px">
-            <img class="mySlides img-fluid mb-3" src="img/insta2.png" width="450px" height="450px">
-            <img class="mySlides img-fluid mb-3" src="img/insta3.png" width="450px" height="450px">
-            <img class="mySlides img-fluid mb-3" src="img/insta4.png" width="450px" height="450px">
-          </div>
+            <div class="w3-content w3-section mb-3">
+              <img class="mySlides img-fluid mb-3" src="img/content1.png" width="450px" height="450px">
+              <img class="mySlides img-fluid mb-3" src="img/content2.png" width="450px" height="450px">
+              <img class="mySlides img-fluid mb-3" src="img/content3.png" width="450px" height="450px">
+              <img class="mySlides img-fluid mb-3" src="img/content4.png" width="450px" height="450px">
+              <img class="mySlides img-fluid mb-3" src="img/content5.png" width="450px" height="450px">
+              <img class="mySlides img-fluid mb-3" src="img/content6.png" width="450px" height="450px">
+            </div>
         </div>
           <div class="col-md-6 mb-3">
-            <h2 class="text-secondary text-md-left" align="center">Holla at ya boy</h2>
+            <h2 class="mb-3">Get in touch</h2>
+            <p>Matthew's contact form is under construction. In the meantime, you can send an <a class="link" href="mailto:matthew.wright3000@gmail.com">email</a>, connect on <a class="link" href="https://www.linkedin.com/in/matthewwright1993">Linkedin</a>, or <a class="link" href="https://twitter.com/WRIGHT_AFFAIR">tweet</a> at him.</p>
+              <!-- <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="mailto:matthew.wright3000@gmail.com"><i class="far fa-envelope"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/matthewwright1993"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://twitter.com/WRIGHT_AFFAIR"><i class="fab fa-twitter"></i></a>
+                </li>
+              </ul> -->
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
             <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+            <!--<form name="sentMessage" id="contactForm" novalidate="novalidate">
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-0">
                   <label>Name</label>
@@ -103,7 +117,7 @@
               <div class="form-group">
                 <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
               </div>
-            </form>
+            </form> -->
           </div>
         </div>
       </div>
@@ -156,7 +170,7 @@
         myIndex++;
         if (myIndex > x.length) {myIndex = 1}    
         x[myIndex-1].style.display = "block";  
-        setTimeout(carousel, 3000);
+        setTimeout(carousel, 4000);
     }
     </script>
 
