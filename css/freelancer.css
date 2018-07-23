@@ -160,6 +160,7 @@ a.link:focus, a.link:hover, a.link:active {
 .text-secondary {
   color: #000 !important;
 }
+
 .floating-label-form-group {
   position: relative;
   border-bottom: 1px solid #fff;
